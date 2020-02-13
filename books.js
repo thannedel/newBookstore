@@ -3,17 +3,17 @@ var allBooks;
 
 function fetching() {
   var fetchConfig = fetch("https://api.myjson.com/bins/zyv02")
-    .then(function(res) {
+    .then(function (res) {
       if (res.ok) return res.json();
     })
-    .then(function(json) {
+    .then(function (json) {
       data = json;
       allBooks = data.books;
       //console.log(allBooks);
       books(allBooks);
       search(allBooks);
     })
-    .catch(function(error) {
+    .catch(function (error) {
       console.log(error);
     });
 }
@@ -70,11 +70,11 @@ function search(allBooks) {
   const searchingTitles = document.querySelectorAll(".flip-card");
   console.log(searchingTitles);
   const searchBar = document.forms["search-books"].querySelector("input");
-  searchBar.addEventListener("keyup", function(e) {
+  searchBar.addEventListener("keyup", function (e) {
     const term = e.target.value.toLowerCase();
     console.log(term);
     let filteredBooks = [];
-    allBooks.forEach(function(book) {
+    allBooks.forEach(function (book) {
       if (book.title.toLowerCase().indexOf(term) != -1) {
         filteredBooks.push(book);
       }
