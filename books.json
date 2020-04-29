@@ -1,0 +1,34 @@
+{
+    "books": [
+      {
+        "cover":"http://www.assoziation-a.de/cover_print/Schlafwandler_RGB.jpg",
+        "title": "Die Armee der Schlafwandler",
+        "detail":"http://www.assoziation-a.de/cover_print/Schlafwandler_RGB.jpg",
+        "description":"Aus dem Italienischen von Klaus-Peter Arnold"  
+    },
+    {
+        "cover":"http://www.assoziation-a.de/cover_print/Kurdi_Der_Junge_am_Strand.jpg",
+        "title": "Der Junge am Strand",
+        "detail":"http://www.assoziation-a.de/cover_print/Kurdi_Der_Junge_am_Strand.jpg",
+        "description":"Die Geschichte einer Familie auf der Flucht"  
+    },
+    {
+        "cover":"http://www.assoziation-a.de/cover_print/Luther%20Blissett_Q_RGB.jpg",
+        "title": "Q",
+        "detail":"http://www.assoziation-a.de/cover_print/Luther%20Blissett_Q_RGB.jpg",
+        "description":"Roman"  
+    },
+    {
+        "cover":"http://www.assoziation-a.de/cover_print/_Kerkerjahre_RGB.jpg",
+        "title": "Kerkerjahre",
+        "detail":"http://www.assoziation-a.de/cover_print/_Kerkerjahre_RGB.jpg",
+        "description":"Als Geiseln der uruguayischen Militärdiktatur"  
+    },
+    {
+        "cover":"http://www.assoziation-a.de/cover_print/Frankenstein_in_Bagdad_RGB.jpg",
+        "title": "Frankenstein in Bagdad",
+        "detail":"http://www.assoziation-a.de/cover_print/Frankenstein_in_Bagdad_RGB.jpg",
+        "description":"Aus dem Arabischen von Hartmut Fähndrich"  
+    }
+    ]
+  }

@@ -2,7 +2,7 @@ fetching();
 var allBooks;
 
 function fetching() {
-  var fetchConfig = fetch("https://api.myjson.com/bins/zyv02")
+  var fetchConfig = fetch("books.json")
     .then(function (res) {
       if (res.ok) return res.json();
     })
@@ -104,3 +104,5 @@ function search(allBooks) {
           </div>`
             cardsContainer.appendChild(card);
         }) */
+
+        
